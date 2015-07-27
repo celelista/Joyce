@@ -1,0 +1,229 @@
+
+#menu{
+	margin-top: 0%;
+	position: fixed;
+}
+#menu li{
+	display: inline-table;
+	background-color: black;
+	background-size: 5% 2%;
+	border-radius: 4px;
+	font-family:'Open Sans Condensed', sans-serif;
+	font-size: 1.2em;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 5px;
+	border: solid white 2px;
+}
+#menu li a{
+	color: white;
+	text-decoration: none;
+}
+#menu li:hover {
+	text-decoration: none;
+	background-color: #335C85;
+}
+
+
+#intro{
+	background-image: url("http://www.bara-art.com/wp-content/uploads/2015/06/sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%, 100%;
+}
+#intro h1{
+	padding-top: 4%;
+	text-align: center;
+	margin-left : 0px;
+	margin-right : 0px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 4.2em;
+	color: white;
+}
+#intro p{
+	font-family:'Open Sans Condensed', sans-serif;
+	margin: auto;
+	font-size: 1.4em;
+	color: #3399FF;
+	opacity:1;
+}
+#intro div{
+	background-opacity: 1;
+}
+#Quote{
+	text-align: left;
+	padding-left: 35%;
+}
+#Author{
+	text-align: right;
+	padding-top: 2%;
+	padding-right: 30%;
+	padding-bottom: 2%;
+}
+
+
+.header2{
+	font-size: 1.667em;
+	font-family:'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+
+
+#AboutMe{
+	background-color: #6666A3;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+#AboutMe p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.250em;
+	text-align: center;
+	padding-left: 25%;
+	padding-right:25%;
+}
+
+
+#Skills{
+	/*background-color:#B6B6FF;*/
+	padding-bottom: 2%;
+	padding-top: 2%;
+    background-color:rgba(182, 182, 255, 0.4);
+}
+#Skills ul{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.250em;
+	list-style-type: none;
+	text-align: center-right;
+	padding-left: 30%;
+}
+
+
+#Experience{
+	/*background-color: #CCCCFF;*/
+    background-color:rgba(204, 204, 255, 0.5);
+	padding-bottom: 2%;
+	padding-top: 2%;
+    color: white;
+}
+#Experience div{
+	font-family: 'Dosis', sans-serif;
+	list-style-type: none;
+	text-align: center-right;
+	padding-left: 25%;
+}
+#Experience p{
+	display:inline;
+    font-size: 1.250em;
+}
+.expDate{
+	text-align: right;
+}
+#Experience ul li{
+	list-style-type: none;
+	font-size: 1.042em;
+	text-indent: 2%;
+}
+
+#education{
+  	background-image: url("https://download.unsplash.com/photo-1428550670225-15f007f6f1ba");
+	background-repeat: no-repeat;
+    background-size:cover;
+}
+#Education{
+    background-color: rgba(230, 180, 180, 0.5);
+	/*background-color: #E6B4B4;*/
+	margin-bottom: 20%;
+	margin-top: 20%;
+    padding-bottom:2%;
+    color: white;
+}
+#Education div p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.250em;
+	list-style-type: none;
+	text-align: center-left;
+	padding-left: 25%;
+}
+
+
+#Projects{
+	background-color: rgba(255, 194, 163, 0.7);
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+#Projects div p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.250em;
+	list-style-type: none;
+	text-align: center-right;
+	padding-left: 25%;
+}
+#Projects div ul li{
+	font-family: 'Dosis', sans-serif;
+	text-align: center-left;
+	list-style-type: none;
+	font-size: 1.042em;
+	color:#666666;
+	text-indent: 2%;
+	padding-left: 25%;
+}
+
+
+#Awards{
+	/*background-color: #FFD494;*/
+    background-color: rgba(255, 212, 148, 0.7);
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+#Awards ul{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.250em;
+	list-style-type: none;
+	text-align: center-right;
+	padding-left: 25%;
+}
+#Awards ul li{
+	padding-bottom: 1%;
+}
+
+
+#Interests{
+    background-color: rgba(255, 255, 153, 0.7);
+	/*background-color: #FFFF99;*/
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+#Interests ul{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.250em;
+	list-style-type: none;
+	text-align: center-right;
+	padding-left: 25%;
+}
+
+
+#Contact{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+#Contact ul li{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.250em;
+	list-style-type: none;
+	text-align: center;
+	padding-bottom: 5%;
+}
+#Contact ul li:hover{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.250em;
+	list-style-type: none;
+	text-align: center;
+	padding-bottom: 5%;
+    background-color:  blue;
+    color: white;
+}
+
+#Contact img{
+	height: 30px;
+}
